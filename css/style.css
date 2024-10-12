@@ -1,3 +1,9 @@
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
@@ -252,114 +258,182 @@
 }
 
 /*** Carousel Hero Header Start ***/
-.header-carousel {
-    position: relative; 
-}
-
-.header-carousel .owl-nav .owl-prev {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-    border-radius: 60px;
-    background: var(--bs-primary);
-    color: var(--bs-white);
-    font-size: 26px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-}
-
-.header-carousel .owl-nav .owl-next {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    border-radius: 60px;
-    background: var(--bs-primary);
-    color: var(--bs-white);
-    font-size: 26px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-}
-
-.header-carousel .owl-nav .owl-prev,
-.header-carousel .owl-nav .owl-next {
-    transition: 0.5s;
-}
-
-.header-carousel .owl-nav .owl-prev:hover,
-.header-carousel .owl-nav .owl-next:hover {
-    box-shadow: inset 100px 0 0 0 var(--bs-light) !important;
-    color: var(--bs-primary) !important;
-}
-
-@media (max-width: 576px) {
-    .header-carousel .owl-nav .owl-prev,
-    .header-carousel .owl-nav .owl-next {
-        top: 630px;
-        transition: 0.5s;
-    }
-
-    .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
-        width: 95% !important;
-    }
- 
-}
-
-.header-carousel .header-carousel-item,
-.header-carousel .header-carousel-item img {
+.slider-container {
     position: relative;
     width: 100%;
     height: 700px;
-    margin-top: 95px;
-    display: block;
-    object-fit: cover;
-    transition: 0.5s;
-
-}
-
-@media (max-width: 992px) {
-    .header-carousel .header-carousel-item,
-    .header-carousel .header-carousel-item img {
-        margin-top: 0;
-        transition: 0.5s;
-    }
-
-}
-
-@media (min-width: 992px) {
-    .header-carousel .owl-nav .owl-prev,
-    .header-carousel .owl-nav .owl-next {
-        margin-top: 50px;
-    }
-}
-
-.header-carousel .header-carousel-item .carousel-caption {
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px rgb(145, 145, 145);
+  }
+  
+  .slider {
+    display: flex;
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 100px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, .5);
-}
-
-.header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    height: 100%;
     position: relative;
-    width: 75%;
-    
-}
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .mini-form {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .mini-form input, .mini-form button{
+    width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      
+  }
+  .enquiry-form h1{
+    font-size: 24px;
+    text-align: center;
+    font-family: sans-serif;
+    color: solid rgb(255, 255, 255);
+  }
+  .mini-form h1, label{
+    color:white;
+  }
+  .enquiry-form button {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+  }
+  
+  .enquiry-form button {
+      background-color: #00ccff;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+  
+  .enquiry-form button:hover {
+      background-color: #0056b3;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(22, 22, 22);
+    padding: 16px;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  /*froms*/
+  .form-error-message {
+      color: red;
+      margin-top: 4px;
+      margin-bottom: px;
+      font-weight: bold;
+      text-align: center;
+      font-size: 12px;
+  }
+  
+  /*cards services*/
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust based on your design requirements */
+  }
+  
+  .service-card {
+    width: calc(33.333% - 20px); /* Subtracting some space for margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+  }
+  
+  .service-card img {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-content h3 {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .card-content p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    flex-grow: 1; /* Ensures the buttons align at the bottom */
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .service-card {
+        width: calc(50% - 20px); /* Two cards per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-card {
+        width: calc(100% - 20px); /* Full width for very small screens */
+    }
+  }
 /*** Carousel Hero Header End ***/
 
 

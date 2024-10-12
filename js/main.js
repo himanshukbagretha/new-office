@@ -248,3 +248,52 @@
 
 })(jQuery);
 
+// carousel start
+//slider 
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+const totalSlides = slides.length;
+
+const slider = document.querySelector('.slider');
+const firstClone = slides[0].cloneNode(true);
+const lastClone = slides[totalSlides - 1].cloneNode(true);
+
+slider.appendChild(firstClone);  
+slider.insertBefore(lastClone, slides[0]);  
+
+currentSlide = 1;
+slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+function moveSlide(direction) {
+  currentSlide += direction;
+  slider.style.transition = 'transform 0.5s ease-in-out';
+  slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+  if (currentSlide >= totalSlides + 1) {
+    setTimeout(() => {
+      slider.style.transition = 'none';
+      currentSlide = 1;
+      slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+    }, 500); 
+  } else if (currentSlide <= 0) {
+    setTimeout(() => {
+      slider.style.transition = 'none';
+      currentSlide = totalSlides;
+      slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+    }, 500);
+  }
+}
+
+
+function autoSlide() {
+  moveSlide(1);
+  setTimeout(autoSlide, 5000);
+}
+
+
+window.onload = function() {
+  setTimeout(autoSlide, 5000);
+};
+
+// carousel end

@@ -3,10 +3,10 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Contact us for Home Health Care </title>
+        <title>Ishaan Home Health Care Gallery</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
-        <meta content="Need home health care? Contact us for professional, compassionate services designed to enhance your well-being and support your independence at home." name="description">
+        <meta content="Explore Ishaan Home Health Care Gallery, showcasing dedicated home health services designed to enhance well-being and support your loved ones at home." name="description">
 
 
         <!-- favicon icon -->
@@ -86,13 +86,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="sevices.html" class="nav-item nav-link">Services</a>
-                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                        <a href="contact.html" class="nav-item nav-link active">Contact Us</a>
+                        <a href="index.php" class="nav-item nav-link">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <a href="sevices.php" class="nav-item nav-link">Services</a>
+                        <a href="gallery.php" class="nav-item nav-link active">Gallery</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                     </div>
-                    <a href="contact.html" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Enquire Now</a>
+                    <a href="contact.php" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Enquire Now</a>
                 </div>
             </nav>
         </div>
@@ -101,11 +101,11 @@
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-light display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h1>
+                <h3 class="text-light display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Gallery</h1>
                 <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.php" class="text-white">Home</a></li>
                     <li class="breadcrumb-item"><a href="#" class="text-white">Pages</a></li>
-                    <li class="breadcrumb-item active text-secondary">Contact</li>
+                    <li class="breadcrumb-item active text-secondary">Gallery</li>
                 </ol>    
             </div>
         </div>
@@ -122,78 +122,73 @@
         </div>
         <!-- Banner End -->
 
-        <!-- Contact Start -->
-        <div class="container-fluid contact py-5">
+        <!-- Video Gallery Start -->
+        <div class="container-fluid gallery py-5">
             <div class="container py-5">
                 <div class="pb-5">
-                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Contact Us</h4>
-                    <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Get In Touch</h1>
+                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Our Gallery</h4>
+                    <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Ishaan Home Health Care Gallery</h1>
                 </div>
-                <div class="bg-light rounded p-4 pb-0">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                            <h2 class="display-5 mb-2">Form</h2>
-                            <p class="mb-4">Ishaan Home Health Care Services is a leading nursing agency in Indore, we provide comprehensive range of home care services in indore.</p>
-                            <form method="post" action="contact-form.php">
-                                <div class="row g-3">
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="phone" class="form-control" id="phone" placeholder="Phone" required>
-                                            <label for="phone">Phone</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 160px" required></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
+                <div class="tab-class wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center pb-4">
+                        <li class="nav-item bg-light border border-primary rounded-pill mb-4">
+                            <a class="d-flex py-2 px-5 rounded-pill active" data-bs-toggle="pill" href="">
+                                <span class="text-dark">Gallery</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="GalleryTab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-2">
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="video h-100">
+                                        <img src="img/class-1.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
-                            <div class="d-flex align-items-center mb-5">
-                                <div class="mb-3"><i class="fa fa-map-marker-alt fa-2x text-primary"></i></div>
-                                <div class="ms-4">
-                                    <h4>Addresses</h4>
-                                    <p class="mb-0">14, MR-3, Mahalaxmi Nagar, Near Sun City Colony, Indore - 452010</p>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="video h-100">
+                                        <img src="img/class-2.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex align-items-center mb-5">
-                                <div class="mb-3"><i class="fa fa-phone-alt fa-2x text-primary"></i></div>
-                                <div class="ms-4">
-                                    <h4>Mobile</h4>
-                                    <p class="mb-0">9266331390</p>
-                                    <p class="mb-0">9266331385</p>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="video h-100">
+                                        <img src="img/class-3.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex align-items-center mb-5">
-                                <div class="mb-3"><i class="fa fa-envelope-open fa-2x text-primary"></i></div>
-                                <div class="ms-4">
-                                    <h4>Email</h4>
-                                    <p class="mb-0">ishaanhomecare@gmail.com</p>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="video h-100">
+                                        <img src="img/Service-08.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <div class="d-flex">
-                                    <a class="btn btn-lg-square btn-primary rounded-circle me-2" href="https://www.facebook.com/people/Ishaan-Home-Health-Care-Services/61567114619613/"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://www.instagram.com/ishaanhomehealthcareservices/"><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://www.linkedin.com/company/ishaan-home-health-care-services/"><i class="fab fa-linkedin-in"></i></a>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
+                                    <div class="video h-100">
+                                        <img src="img/Service-07.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="video h-100">
+                                        <img src="img/Service-06.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="video h-100">
+                                        <img src="img/Service-05.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="video h-100">
+                                        <img src="img/Service-01.png" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="video h-100">
+                                        <img src="img/Service-02.png" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
+                                    <div class="video h-100">
+                                        <img src="img/service-2.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -201,7 +196,26 @@
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+
+        <!-- Modal Video -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video Gallery End -->
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -273,7 +287,7 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-white"><a href="index.html" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Ishaan Home Health Care Services</a> All right reserved.</span>
+                        <span class="text-white"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Ishaan Home Health Care Services</a> All right reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-end text-white">
                         Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>

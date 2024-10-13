@@ -3,10 +3,10 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Experience Exceptional Home Care Services in Indore</title>
+        <title>Ishaan Home Health Care Service Provides Home Care Services in Indore</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
-        <meta content="Experience exceptional home care services in Indore, dedicated to delivering quality patient care. Trust us to enhance your well-being at home" name="description">
+        <meta content="Looking for home care services in Indore? Ishaan Home Health Care offers exceptional patient care services in Indore. Quality care at your doorstep." name="description">
 
 
         <!-- favicon icon -->
@@ -16,7 +16,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yantramanav:wght@400;500;700&display=swap" rel="stylesheet"> 
-
+        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=DM+Serif+Text:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -86,30 +86,44 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="sevices.html" class="nav-item nav-link active">Services</a>
-                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <a href="sevices.php" class="nav-item nav-link">Services</a>
+                        <a href="gallery.php" class="nav-item nav-link">Gallery</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                     </div>
-                    <a href="contact.html" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Enquire Now</a>
+                    <a href="contact.php" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Enquire Now</a>
                 </div>
             </nav>
         </div>
         <!-- Navbar & Hero End -->
 
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-light display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h1>
-                <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#" class="text-white">Pages</a></li>
-                    <li class="breadcrumb-item active text-secondary">Services</li>
-                </ol>    
+
+        <!-- Carousel Start -->
+        <div class="slider-container">
+            <div class="slider">
+              <div class="slide">
+                <img src="img/1.png" alt="Image 1">
+              </div>
+              <div class="slide">
+                <img src="img/2.png" alt="Image 2">
+              </div>
+              <div class="slide">
+                <img src="img/3.png" alt="Image 3">
+              </div>
+              <div class="slide">
+                <img src="img/4.png" alt="Image 1">
+              </div>
+              <div class="slide">
+                <img src="img/5.png" alt="Image 2">
+              </div>
+              <!-- Add more slides as needed -->
             </div>
-        </div>
-        <!-- Header End -->
+          
+            <a class="prev btn btn-primary btn-lg-square text-center text-white" onclick="moveSlide(-1)">&#10094;</a>
+            <a class="next btn btn-primary btn-lg-square text-center text-white" onclick="moveSlide(1)">&#10095;</a>
+          </div>
+        <!-- Carousel End -->
 
         <!-- Banner Start -->
         <div class="container-fluid bg-secondary wow zoomInDown" data-wow-delay="0.1s">
@@ -121,6 +135,84 @@
             </div>
         </div>
         <!-- Banner End -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="border bg-secondary rounded">
+                            <img src="img/about.1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
+                        <h4 class="text-secondary sub-title fw-bold">About US</h4>
+                        <h1 class="display-3 mb-4"><strong class="text-primary">Best</strong> Home Care For Yourself and Your Family</h1>
+                        <p>Ishaan Home Health Care Services is a leading nursing agency in Indore, we provide comprehensive range of home care services in indore designed to meet the diverse needs of our clients with utmost professionalism and compassion. Our expert team provides exceptional nursing services, including home care services, patient care services, and senior care services in indore, blending traditional practices with modern healthcare techniques.
+                        </p>
+                        <p class="mb-4">We also offer specialized stroke care, tracheostomy care, and dementia care, ensuring that individuals with complex medical conditions receive the precise, attentive support they require. At Ishaan Home Health Care Services, our goal is to enhance the quality of life for every client by delivering personalized, compassionate care that addresses both medical needs and personal comfort, all within the familiar and supportive environment of home.
+                        </p>
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Counter Facts Start -->
+        <div class="container-fluid counter-facts py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="counter">
+                            <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                                <h3>Years Of Experience</h3>
+                            </div>
+                            <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                                <span class="counter-value" data-toggle="counter-up">15</span>
+                                <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="counter">
+                            <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                                <h3>Master Certification</h3>
+                            </div>
+                            <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                                <span class="counter-value" data-toggle="counter-up">18</span>
+                                <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="counter">
+                            <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                                <h3>Qualified Staff</h3>
+                            </div>
+                            <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                                <span class="counter-value" data-toggle="counter-up">200</span>
+                                <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="counter">
+                            <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
+                                <h3>Happy customer</h3>
+                            </div>
+                            <div class="counter-content d-flex align-items-center justify-content-center mt-4">
+                                <span class="counter-value" data-toggle="counter-up">2012</span>
+                                <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter Facts End -->
+
 
         <!-- Events Start -->
         <div class="container-fluid events py-5">
@@ -235,59 +327,88 @@
         </div>
         <!-- Events End -->
 
-
-        <!-- Counter Facts Start -->
-        <div class="container-fluid counter-facts py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="counter">
-                            <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
-                                <h3>Years Of Experience</h3>
-                            </div>
-                            <div class="counter-content d-flex align-items-center justify-content-center mt-4">
-                                <span class="counter-value" data-toggle="counter-up">15</span>
-                                <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                            </div>
+        <!-- Contact Start -->
+        <div class="container-fluid contact py-5">
+            <div class="container py-5">
+                <div class="pb-5">
+                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Contact Us</h4>
+                    <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Get In Touch</h1>
+                </div>
+                <div class="bg-light rounded p-4 pb-0">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                            <h2 class="display-5 mb-2">Send Enquiry</h2>
+                            <p class="mb-4">Ishaan Home Health Care Services is a leading nursing agency in Indore, we provide comprehensive range of home care services in indore.</p>
+                            <form method="post" action="contact-form.php">
+                                <div class="row g-3">
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input type="phone" class="form-control" name="phone" placeholder="Phone" required>
+                                            <label for="phone">Phone</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here" name="message" style="height: 160px" required></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="counter">
-                            <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
-                                <h3>Master Certification</h3>
+                        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-5">
+                                <div class="mb-3"><i class="fa fa-map-marker-alt fa-2x text-primary"></i></div>
+                                <div class="ms-4">
+                                    <h4>Addresses</h4>
+                                    <p class="mb-0">14, MR-3, Mahalaxmi Nagar, Near Sun City Colony, Indore - 452010</p>
+                                </div>
                             </div>
-                            <div class="counter-content d-flex align-items-center justify-content-center mt-4">
-                                <span class="counter-value" data-toggle="counter-up">18</span>
-                                <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                            <div class="d-flex align-items-center mb-5">
+                                <div class="mb-3"><i class="fa fa-phone-alt fa-2x text-primary"></i></div>
+                                <div class="ms-4">
+                                    <h4>Mobile</h4>
+                                    <p class="mb-0">9266331390</p>
+                                    <p class="mb-0">9266331385</p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="counter">
-                            <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
-                                <h3>Qualified Staff</h3>
+                            <div class="d-flex align-items-center mb-5">
+                                <div class="mb-3"><i class="fa fa-envelope-open fa-2x text-primary"></i></div>
+                                <div class="ms-4">
+                                    <h4>Email</h4>
+                                    <p class="mb-0">ishaanhomecare@gmail.com</p>
+                                </div>
                             </div>
-                            <div class="counter-content d-flex align-items-center justify-content-center mt-4">
-                                <span class="counter-value" data-toggle="counter-up">200</span>
-                                <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="counter">
-                            <div class="counter-icon w-100 d-flex align-items-center justify-content-center">
-                                <h3>Happy customer</h3>
-                            </div>
-                            <div class="counter-content d-flex align-items-center justify-content-center mt-4">
-                                <span class="counter-value" data-toggle="counter-up">2012</span>
-                                <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex">
+                                    <a class="btn btn-lg-square btn-primary rounded-circle me-2" href="https://www.facebook.com/people/Ishaan-Home-Health-Care-Services/61567114619613/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://www.instagram.com/ishaanhomehealthcareservices/"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://www.linkedin.com/company/ishaan-home-health-care-services/"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Counter Facts End -->
+        <!-- Contact End -->
+
+        
 
         <!-- Dance Class Start -->
         <div class="container-fluid class bg-light py-5">

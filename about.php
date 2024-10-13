@@ -86,13 +86,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="sevices.html" class="nav-item nav-link">Services</a>
-                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="index.php" class="nav-item nav-link">Home</a>
+                        <a href="about.php" class="nav-item nav-link active">About</a>
+                        <a href="sevices.php" class="nav-item nav-link">Services</a>
+                        <a href="gallery.php" class="nav-item nav-link">Gallery</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                     </div>
-                    <a href="contact.html" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Enquire Now</a>
+                    <a href="contact.php" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Enquire Now</a>
                 </div>
             </nav>
         </div>
@@ -104,7 +104,7 @@
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h3 class="text-light display-3 wow fadeInDown" data-wow-delay="0.1s">About Us</h1>
                 <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.php" class="text-white">Home</a></li>
                     <li class="breadcrumb-item"><a href="#" class="text-white">Pages</a></li>
                     <li class="breadcrumb-item active text-secondary">About</li>
                 </ol>    
